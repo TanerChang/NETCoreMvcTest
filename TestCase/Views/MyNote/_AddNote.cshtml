@@ -1,0 +1,92 @@
+﻿@using TestCase.Parameter.ViewModel
+@model NoteViewModel
+<div class="modal fade" id="CreateNote" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">新增重要訊息</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row mt-1">
+                <div class="col-md-6 mb-3">
+                    <label for="svm_ck_sdt" class="form-label required-form">標題</label>
+                    @Html.HiddenFor(o => o.SaveView.Note_Sn_txt)
+                    @Html.TextBoxFor(o => o.SaveView.Note_Title, new { @class = "inputbox form-control" })
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="svm_ck_req" class="form-label">日期</label>
+                    @Html.TextBoxFor(o => o.SaveView.Note_Date_txt, new { @class = "inputbox date-picker" })
+                </div>             
+                <div class="col-md-12 mb-3">
+                    <label for="svm_ck_req" class="form-label required-form">內文</label>
+                    @Html.TextAreaFor(o => o.SaveView.Note_Content, new { @class = "inputbox form-control", @PlaceHolder = "內文最長200個字" })
+                </div>
+                <div class="text-center pt-3 my-3 modal-footer">
+                    <button id="createNote_btn" type="button" class="btn btn-outline-primary mx-3 px-5">儲存</button>
+                    <button type="button" id="close-modal" class="btn btn-outline-primary mx-3 px-5">返回</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //先判斷是新增OR修改
+    function AddPage() {
+        $('#CreateNote').modal('show');
+    }
+    
+    //儲存按鈕
+    $('#createNote_btn').on('click', function () {
+        var m = "";
+        var Note_Sn_txt = $('#SaveView_Note_Sn_txt').val();
+        var Note_Date_txt = $('#SaveView_Note_Date_txt').val();
+        var Note_Content = $('#SaveView_Note_Content').val();
+        var Note_Title = $('#SaveView_Note_Title').val();
+        if (Note_Title == "" && Note_Title == undefined) {
+            m += "請輸入標題";
+        }
+        if (Note_Date_txt == "" && Note_Date_txt == undefined) {
+            m += "請輸入日期";
+        }
+        if (m == "") {
+            Create();
+        }
+        else {
+            msg.WithError(m);
+        }
+
+    });
+    function Create() {
+        var Note_Sn_txt = $('#SaveView_Note_Sn_txt').val();
+        var Note_Date_txt = $('#SaveView_Note_Date_txt').val();
+        var Note_Content = $('#SaveView_Note_Content').val();
+        var Note_Title = $('#SaveView_Note_Title').val();
+        var obj = new Object();
+        obj.SaveView = new Object();
+        obj.SaveView.Note_Date_txt = Note_Date_txt;
+        obj.SaveView.Note_Sn_txt = Note_Sn_txt;
+        obj.SaveView.Note_Title = Note_Title;
+        obj.SaveView.Note_Content = Note_Content;
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("Update")",
+            async: false,
+            dataType: "json",
+            data: obj,
+        }).done(function (result1) {
+            if (result1.result) {
+                msg.WithSuccess(result1.messager, function () {
+                    LoadData();
+                    $('#CreateNote').modal('hide');
+                })
+            }
+            else {
+                msg.WithError(result1.messager);
+            }
+
+        })
+    }
+    $('#close-modalCKB').on('click', function () {
+        $('#CreateNote').modal('hide');
+    });
+</script>

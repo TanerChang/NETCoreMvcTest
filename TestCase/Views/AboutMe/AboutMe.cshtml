@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "about me";
+}
+<h1>@ViewData["Title"]</h1>
+
+<span>
+
+    public int MaxArea(int[] height) {
+    int start = 0, end = height.Length - 1;
+    int wather = 0;
+    int max = 0;
+    while (start < end)
+    {
+    if (height[start]< height[end])
+    {
+    wather = height[start] * (end - start);
+    }
+    else
+    {
+    wather = height[end] * (end - start);
+    }
+    if (max < wather || max == 0)
+    {
+    max = wather;
+    }
+    if (height[start] < height[end]) start++;
+    else end--;
+    }
+    return max;
+    }
+</span>
+

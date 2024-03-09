@@ -1,0 +1,186 @@
+﻿@using TestCase.Parameter.ViewModel
+
+
+@model NoteViewModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<div class="main">
+    <div class="block">
+        <div class="title">
+            查詢條件
+            <button id="button" class="ui-state-default ui-corner-all ty_open"></button>
+        </div>
+        <div id="effect">
+            <form>
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb_style2">
+                    <tbody>
+                        <tr>
+
+                            <th scope="row">
+                                <div style="text-align:right"><span class="star"></span>筆記日期</div>
+                            </th>
+                            <td colspan="2">
+                                <div style="width:120px; display:inline-block">
+                                    @Html.TextBoxFor(o => o.SearchModel.NDate_S, new { @class = "inputbox date-picker" })
+                                </div>
+                                <div style="width:26px; display:inline-block;text-align-last:center">
+                                    ~
+                                </div>
+                                <div style="width:120px; display:inline-block">
+                                    @Html.TextBoxFor(o => o.SearchModel.NDate_E, new { @class = "inputbox date-picker" })
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+
+                            <th scope="row">
+                                <div style="text-align:right">筆記標題</div>
+                            </th>
+                            <td>
+                                <div style="width:300px; display:inline-block">
+                                    @Html.TextBoxFor(o => o.SearchModel.NTitle, "請選擇", new { @class = "inputbox" })
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <ul class="btn_set">
+                <li>
+                    <input type="button" value="查詢" onclick="Search();" />
+                </li>
+                <li>
+                    <input type="button" value="清除" class="del" onclick="Clean();" />
+                </li>
+                <li>
+                    <input type="button" value="新增" onclick="AddPage();" />
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="block">
+        <div class="sub_tit">
+            查詢結果
+        </div>
+        <div class="block">
+            <table id="table"></table>
+        </div>
+    </div>
+</div>
+@await Html.PartialAsync("_AddNote")
+
+    <script>
+  
+        function Search() {
+            LoadData();
+        }
+        function LoadData() {
+
+            var columns = [
+                {
+                    field: "No", title: "序號", formatter: function (value, row, index) { return index + 1; }
+                },
+                {
+                    field: "Note_Date_txt", title: "日期",
+                },
+                {
+                    field: "Note_Title", title: "標題",
+                },
+                {
+                    field: "Note_Content", title: "內容",
+                },
+                {
+                    field: "actions", title: "　功能　", formatter: "$.ClientSide.OperateFormatter", events: "$.ClientSide.OperateEvents"
+                },
+            ]
+            function Model(params) {
+                return {
+                    limit: params.limit,
+                    offset: params.offset,
+                    SearchModel: {
+                        NDate_S: $('#SearchModel_NDate_S').val(),
+                        NDate_E: $('#SearchModel_NDate_E').val(),
+                        NTitle: $('#SearchModel_NTitle').val(),
+                    }
+                };
+            }
+            GridSetup();
+
+
+            InitTable2("table", "@Url.Action("Table")", "sn", columns, Model);
+        }
+        function GridSetup() {
+            function operateFormatter(value, row, index) {
+                var op = [];
+                op.push('<button type="button" class="add btn btn-primary btn-sm" href="javascript:void(0)">');
+                op.push('新增');
+                op.push('</button>');
+                op.push('<button type="button" class="modify btn btn-primary btn-sm" href="javascript:void(0)">');
+                op.push('編輯');
+                op.push('</button>');
+                op.push('<button type="button" class="delete btn btn-primary btn-sm" href="javascript:void(0)">');
+                op.push('刪除');
+                op.push('</button>');
+                return op.join('');
+            }
+
+            function operateEvents() {
+                var event = {
+                    'click .add': function (e, value, row, index) {
+                        //新增畫面開啟
+                        $('#SaveView_Note_Sn_txt').val("");
+                        $('#SaveView_Note_Title').val("");
+                        $('#SaveView_Note_Content').val("");
+                        $('#SaveView_Note_Title').val("");
+                        AddPage();
+                    },
+                    'click .modify': function (e, value, row, index) {
+                        $('#SaveView_Note_Sn_txt').val(row.Note_Sn_txt);
+                        $('#SaveView_Note_Title').val(row.Note_Title);
+                        $('#SaveView_Note_Content').val(row.Note_Content);
+                        $('#SaveView_Note_Title').val(row.SaveView_Note_Date_txt);
+                        AddPage();
+
+                    },
+                    'click .delete': function (e, value, row, index) {
+                        Delete(row.Note_Sn_txt);
+                    }
+                };
+                return event;
+            }
+        }
+
+    
+        //刪除按鈕
+        function Delete(sn) {
+            var obj = new Object();
+            obj.SearchModel = new Object();
+            obj.SearchModel.NoteSN = sn;
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("Delete")",
+                async: false,
+                dataType: "json",
+                data: obj,
+            }).done(function (result1) {
+                if (result1.result) {
+                    msg.WithSuccess(result1.messager, function () {
+                        LoadData();
+                    })
+                }
+                else {
+                    msg.WithError(result1.msg);
+                }
+
+            })
+        }
+        
+        </script>

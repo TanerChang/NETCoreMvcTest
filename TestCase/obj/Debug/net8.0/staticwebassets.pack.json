@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestCase.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestCase.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\js\\basic.js",
+      "PackagePath": "staticwebassets\\js\\basic.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-1.11.1.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-1.11.1.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-1.11.1.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-1.11.1.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-zh-TW.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table-zh-TW.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap-table\\bootstrap-table.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-table\\bootstrap-table.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-blockUI\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-blockUI\\jquery.blockUI.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\arrow.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\arrow_m.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\arrow_m.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\arrow_m_on.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\arrow_m_on.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\arrow_marquee.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\arrow_marquee.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\arrow_nav.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\arrow_nav.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\bg_btn_1.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\bg_btn_1.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\bg_btn_2.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\bg_btn_2.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\bg_editer.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\bg_editer.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\bg_log.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\bg_log.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\bg_log_ft.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\bg_log_ft.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\calendar.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\calendar.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\checkbox_on.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\checkbox_on.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\gray_spot.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\gray_spot.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_arrow.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_arrow.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_exit.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_exit.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_more.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_more.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_pin.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_pin.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_plus.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_plus.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_print.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_print.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_select_arrow.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_select_arrow.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_select_arrow_2.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_select_arrow_2.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_star.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_star.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_user.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_user.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\icon_view.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\icon_view.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\jquery_ui_icons.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\jquery_ui_icons.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\jquery_ui_icons_hover.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\jquery_ui_icons_hover.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\jquery_ui_icons_white.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\jquery_ui_icons_white.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\logo_ef.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\logo_ef.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\logo_log.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\logo_log.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\logo_odp.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\logo_odp.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\logo_owf.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\logo_owf.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\marquee_bg.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\marquee_bg.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\menu_bg.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\menu_bg.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\menu_off.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\menu_off.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\menu_open.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\menu_open.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\radio.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\radio.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\radio_on.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\radio_on.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\red_spot.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\red_spot.jpg"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\side_btn_add.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\side_btn_add.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\side_btn_del.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\side_btn_del.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\side_btn_disable.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\side_btn_disable.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\side_btn_start.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\side_btn_start.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\side_btn_upload.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\side_btn_upload.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\titbg.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\titbg.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-ui\\jquery.inputmask.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery.inputmask.bundle.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\面試\\永慶房屋\\TestCase\\TestCase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestCase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestCase.props",
+      "PackagePath": "build\\TestCase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestCase.props",
+      "PackagePath": "buildMultiTargeting\\TestCase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestCase.props",
+      "PackagePath": "buildTransitive\\TestCase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
